@@ -37,12 +37,12 @@ function App() {
   
   return (
     <>
-      <div className='flex items-center justify-center min-h-screen'>
+      <div className='flex items-center justify-center min-h-screen px-5'>
         <div className='border border-gray-400 p-5 rounded-md'>
             <div className='border border-gray-200 p-5 rounded-md'>
                 <div>
                     <div>
-                      <input type="text" className='w-full outline-none border border-gray-200 px-4 py-1 text-end font-bold text-lg gap-1' value={value} onChange={handleChange} readOnly/>
+                      <input type="text" className='w-full h-30 outline-none border border-gray-200 px-4 py-1 align-baseline text-end text-bottom font-bold text-lg gap-1' value={value} onChange={handleChange} readOnly/>
                     </div>
                     <div className='grid grid-cols-4 gap-3 mt-5 font-bold'>
                       <button onClick={handleClear} className='bg-blue-500 px-3 py-1 rounded-md'>C</button>
