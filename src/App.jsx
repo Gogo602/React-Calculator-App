@@ -32,6 +32,7 @@ function App() {
       setValue(result.toString())
     } catch (error) {
       setValue('Syntax Error', error)
+      handleClear();
     }
   }
   
