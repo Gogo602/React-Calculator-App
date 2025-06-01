@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function App() {
-  const [value, setValue] = useState('')
+  const [value, setValue] = useState(0)
   
 //handle onchange when a button is clicked
   const handleChange = (event) => {
